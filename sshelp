@@ -1,0 +1,16 @@
+# 85153056
+声明：
+    一键脚本搭建SS / SSR服务+开启BBR加速
+用法：
+    显示版本：
+        ss-fly.sh -v | v |版本
+    显示帮助：
+        ss-fly.sh [-h | h | help]
+    一键安装SS：
+        ss-fly.sh -i | i | install
+    一键卸载SS：
+	ss-fly.sh -uninstall
+    一键安装SSR：
+	ss-fly.sh -ssr
+    安装BBR加速：
+        ss-fly.sh -bbr
