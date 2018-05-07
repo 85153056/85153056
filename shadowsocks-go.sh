@@ -4,17 +4,17 @@ export PATH
 #=================================================================#
 #   System Required:  CentOS, Debian, Ubuntu                      #
 #   Description: One click Install Shadowsocks-go server          #
-#   Author: Teddysun <i@kexuesw.com>                             #
+#   Author: Teddysun <i@teddysun.com>                             #
 #   Thanks: @cyfdecyf <https://twitter.com/cyfdecyf>              #
-#   Intro:  https://kexuesw.com                        #
+#   Intro:  https://teddysun.com/392.html                         #
 #==================================================================
 
 clear
 echo
 echo "#############################################################"
 echo "# One click Install Shadowsocks-go server                   #"
-echo "# Intro: https://kexuesw.com                     #"
-echo "# Author: Teddysun <i@kexuesw.com>                         #"
+echo "# Intro: https://teddysun.com/392.html                      #"
+echo "# Author: Teddysun <i@teddysun.com>                         #"
 echo "# Github: https://github.com/shadowsocks/shadowsocks-go     #"
 echo "#############################################################"
 echo
@@ -133,8 +133,8 @@ pre_install(){
     fi
     # Set shadowsocks-go config password
     echo "Please input password for shadowsocks-go:"
-    read -p "(Default password: kexuesw.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="kexuesw.com"
+    read -p "(Default password: teddysun.com):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -322,7 +322,7 @@ install(){
     echo -e "Your Local Port: \033[41;37m 1080 \033[0m"
     echo -e "Your Encryption Method: \033[41;37m aes-256-cfb \033[0m"
     echo
-    echo "Welcome to visit:https://kexuesw.com/392.html"
+    echo "Welcome to visit:https://teddysun.com/392.html"
     echo "Enjoy it!"
     echo
 }
